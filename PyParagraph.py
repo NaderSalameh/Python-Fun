@@ -34,7 +34,7 @@ output_path = os.path.join('Analysis', "Paragraph_Analysis.txt")
 with open(output_path, 'w', newline='') as textfile:
     
     
-    textfile.write(passage)
+    textfile.writelines(passage)
     textfile.write("\n \n \n")
     textfile.write('Paragraph Analysis\n')
     textfile.write('--.----------.----------.----\n')
